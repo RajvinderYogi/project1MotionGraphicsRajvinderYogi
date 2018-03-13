@@ -1,0 +1,76 @@
+/*CSS for the project to give it a good feel*/
+body {
+    background-color: azure;
+    font-family: "Arial Black", sans-serif;
+}
+.bg-body{
+    background-color: lightgoldenrodyellow;
+}
+.button{
+    display: grid;
+    margin: 150px auto;
+    width:400px;
+    height: 175px;
+    position: relative;
+    background:  #D3D3D3;
+    border-radius:25px;
+    box-shadow: -5px -5px 5px -5px #D3D3D3;
+}
+.wrap{
+    margin:auto;
+    display: inline-flex;
+}
+.on{
+    font-size:50px;
+    color: lightgreen;
+    width:185px;
+    height: 150px;
+    background: radial-gradient(lightgreen, green, black);
+    text-align: center;
+    border-radius:25px 0 0 25px;
+    cursor: pointer;
+}
+.off{
+    font-size:50px;
+    color: #ff7876;
+    width:185px;
+    height: 150px;
+    background: radial-gradient(red, darkred, black);
+    text-align: center;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+}
+.button-cover{
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 200px;
+    height:175px;
+    display: grid;
+    top: 0;
+    background: #D3D3D3;
+    transition: 1s;
+}
+
+.inner{
+    height: 160px;
+    width: 180px;
+    background-color: #D3D3D3;
+    border-radius: 25px;
+    margin: auto;
+    box-shadow: -5px -5px 5px -5px #ECECEC;
+}
+.project{
+    text-align:center;
+    background-color: #e4606d;
+}
+.move-left{
+    left: 0px;
+}
+.move-right{
+    left: 200px;
+
+}
+.bg-footer{
+    background-color: royalblue;
+}
